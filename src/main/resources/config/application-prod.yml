@@ -55,9 +55,9 @@ spring:
     contexts: prod
     url: jdbc:postgresql://localhost:5432/msgradle
   r2dbc:
-    url: r2dbc:postgresql://localhost:5432/msgradle
-    username: msgradle
-    password:
+    url: r2dbc:postgresql://localhost:5432/ms-maven
+    username: postgres
+    password: hitman47
   thymeleaf:
     cache: true
   sleuth:
