@@ -262,3 +262,8 @@ wrapper {
 
 compileJava.dependsOn processResources
 processResources.dependsOn bootBuildInfo
+
+task libraries(type: Copy) {
+    from configurations.runtime
+    into "lib"
+}
